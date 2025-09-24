@@ -45,6 +45,19 @@
 
 /* Hero slider */
 #heroCarousel img {
-  height: 100px;
+  height: 1
+  
+  
+  
+  /* Categories */
+.category-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background: #fff;
+}
+.category-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  cursor: pointer;
+}00px;
   object-fit: cover;
 }
