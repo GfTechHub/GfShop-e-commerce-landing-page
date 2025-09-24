@@ -230,3 +230,50 @@ section h3::after, section h2::after {
 .footer a:hover {
   color: var(--accent, #ff7a00);
 }
+
+
+
+
+/* Search Overlay */
+.search-overlay {
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  z-index: 1050;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.95);
+  overflow-y: hidden;
+  transition: 0.5s;
+  text-align: center;
+  padding-top: 100px;
+}
+.search-overlay input {
+  width: 60%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+.search-overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 40px;
+  cursor: pointer;
+  color: white;
+}
+
+
+
+
+.flash-img {
+  height: 120px;
+  width: auto;
+  object-fit: contain;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.flash-img:hover {
+  transform: scale(1.05);
+}
