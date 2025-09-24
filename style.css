@@ -1,0 +1,44 @@
+:root {
+  --orange: #f68b1e;
+}
+
+.text-orange { color: var(--orange) !important; }
+.bg-orange { background-color: var(--orange) !important; }
+.btn-orange {
+  background-color: var(--orange);
+  color: #fff;
+}
+.btn-orange:hover {
+  background-color: #e67a10;
+}
+.btn-outline-orange {
+  border: 1px solid var(--orange);
+  color: var(--orange);
+}
+.btn-outline-orange:hover {
+  background-color: var(--orange);
+  color: #fff;
+}
+
+/* Category cards */
+.category-card {
+  border-radius: .5rem;
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+.category-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+}
+
+/* Product cards */
+.product-card img {
+  object-fit: cover;
+  height: 200px;
+}
+.product-card {
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+}
