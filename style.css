@@ -45,19 +45,21 @@
 
 /* Hero slider */
 #heroCarousel img {
-  height: 1
-  
-  
-  
-  /* Categories */
-.category-card {
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  background: #fff;
-}
-.category-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-  cursor: pointer;
-}00px;
+  height: 400px;
   object-fit: cover;
+}
+
+
+
+/* Product cards */
+.product-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+}
+.product-card img {
+  object-fit: cover;
+  height: 200px;
 }
