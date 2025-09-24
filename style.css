@@ -120,3 +120,12 @@
   transform: translateY(-5px);
   box-shadow: 0 6px 16px rgba(0,0,0,0.12);
 }
+
+
+/* Footer */
+.footer a:hover {
+  color: var(--accent, #ff7a00);
+}
+.footer input {
+  border-radius: 0.25rem;
+}
