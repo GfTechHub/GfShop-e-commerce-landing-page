@@ -42,3 +42,9 @@
   transform: translateY(-5px);
   box-shadow: 0 6px 20px rgba(0,0,0,0.1);
 }
+
+/* Hero slider */
+#heroCarousel img {
+  height: 100px;
+  object-fit: cover;
+}
