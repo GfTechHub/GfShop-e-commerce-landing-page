@@ -92,3 +92,16 @@
   height: 200px;
   object-fit: cover;
 }
+
+
+/* Why shop with us */
+.why-shop img {
+  height: 80px;
+}
+.why-shop .hover-shadow {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.why-shop .hover-shadow:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+}
