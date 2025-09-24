@@ -84,3 +84,11 @@
   font-size: 1.25rem;
   letter-spacing: 1px;
 }
+
+
+
+/* Trending deals */
+.trending .card img {
+  height: 200px;
+  object-fit: cover;
+}
