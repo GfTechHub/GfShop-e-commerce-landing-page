@@ -237,9 +237,9 @@ section h3::after, section h2::after {
 /* Search Overlay */
 .search-overlay {
   height: 0%;
-  width: 100%;
+  width: 500%;
   position: fixed;
-  z-index: 1050;
+  z-index: 500;
   top: 0;
   left: 0;
   background-color: rgba(0,0,0,0.95);
@@ -249,10 +249,10 @@ section h3::after, section h2::after {
   padding-top: 100px;
 }
 .search-overlay input {
-  width: 60%;
-  padding: 10px;
+  width: 20%;
+  padding: 5px;
   border: none;
-  border-radius: 5px;
+  border-radius: 3px;
 }
 .search-overlay .closebtn {
   position: absolute;
@@ -266,14 +266,21 @@ section h3::after, section h2::after {
 
 
 
+/* Smaller images */
 .flash-img {
-  height: 120px;
+  height: 70px;   /* reduce height (was 120px) */
   width: auto;
   object-fit: contain;
-  border-radius: 8px;
+  border-radius: 6px;
   transition: transform 0.3s ease;
 }
 
 .flash-img:hover {
   transform: scale(1.05);
+}
+
+/* Slim heading */
+.flash-sale h5 {
+  font-size: 1rem;
+  margin-bottom: 8px;
 }

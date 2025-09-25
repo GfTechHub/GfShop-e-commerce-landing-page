@@ -73,9 +73,9 @@ document.getElementById("closeSearch").addEventListener("click", function() {
 
 
 
-// Auto-slide every 2.5 seconds
+// Auto-slide every  1seconds
 const flashSale = document.querySelector('#flashSaleCarousel');
 const carousel = new bootstrap.Carousel(flashSale, {
-  interval: 2500, // 2.5s per item
+  interval: 500, // 2.5s per item
   ride: 'carousel'
 });
